@@ -41,8 +41,8 @@ field.each do |row|
   print "\n"
   row.each {|i| print "#{i} "}
 end
-products = []
 
+products = []
 (0..(field_height-1)).each do |row|
   (0..(field_width-1)).each do |col|
     ['', 'top', 'bottom'].each do |v_direction|
